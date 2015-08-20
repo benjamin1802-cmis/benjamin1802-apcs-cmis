@@ -1,27 +1,33 @@
 import javax.swing.JOptionPane;  
 
-class TwoNumbersMath{  
+public class TwoNumbersMath{  
   public static void main ( String args [] ) 
  {  
-   int sum = 0;
+   float sum = 0;
    
-   String first = JOptionPane.showInputDialog( "Give me a number!" );
-   String second = JOptionPane.showInputDialog( "Give me another number!" );
+   String first = JOptionPane.showInputDialog( "Insert a Number." );
+   String second = JOptionPane.showInputDialog( "Insert another Number." );
    
-   int one = Integer.parseInt ( first );
-   int two = Integer.parseInt ( second );
+   float one = Float.parseFloat ( first );
+   float two = Float.parseFloat ( second );
    
-      sum = one + two ;
+   sum = one + two ;
    System.out.println ( first +"+"+ second +"="+ sum );
-      sum = one - two ;
+   System.out.println ( second +"+"+ first +"="+ sum );   
+   sum = one - two ;
    System.out.println ( first +"-"+ second +"="+ sum );
-      sum = one * two ;
+   sum = two - one ;
+   System.out.println ( second +"-"+ first +"="+ sum );   
+   sum = one * two ;
    System.out.println ( first +"*"+ second +"="+ sum );
-      sum = one / two ;
+   System.out.println ( second +"*"+ first +"="+ sum );
+   sum = one / two ;
    System.out.println ( first +"/"+ second +"="+ sum ); 
-      sum = one % two ;
-   System.out.println ( first +"%"+ second +"="+ sum );  
-   
-   
+   sum = two / one ;
+   System.out.println ( second +"/"+ first +"="+ sum ); 
+   sum = one % two ;
+   System.out.println ( first +"%"+ second +"="+ sum ); 
+   sum = two % one ;
+   System.out.println ( second +"%"+ first +"="+ sum );    
  }  // end main
-}   // end class InputData
+}   // end class TwoNumbersMaths
