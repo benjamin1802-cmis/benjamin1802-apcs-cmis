@@ -1,33 +1,38 @@
-
-/**
- * Write a description of class FundamentalsPt8 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class FundamentalsPt8
 {
-    // instance variables - replace the example below with your own
-    private int x;
+     public static void main ( String args[] )
+     {
+          String [] artists = {"Exo", "Apink", "2ne1"};
+          
+          for(int a = 0;a<artists.length;a++)
+          {
+                System.out.println(artists[a] );
+            }
+            
+            artists[((int)(3*Math.random()))] = "Michael Jackson";
+            for(int a = 0;a<artists.length;a++)
+            {
+                System.out.println(artists[a]);
+            }
+            
+            for(int a = 0;a<artists.length;a++)
+            
+           {
+                if ( artists[a].equals("Michael Jackson"))
+                {
+                    System.out.println("We found Michael!");
+                    
+                }
+           else
+                {
+                    System.out.println("No Michael in music" + "["+a+"]");
+                }
+                
+            }//end for
+        }// end main    
+    }// end class FundamentalsPt8
+        
+         
+    
 
-    /**
-     * Constructor for objects of class FundamentalsPt8
-     */
-    public FundamentalsPt8()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
-}
+                

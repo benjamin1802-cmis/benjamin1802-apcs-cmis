@@ -9,8 +9,10 @@ public class FundamentalsP5
        
         for(int index = 0; index < MyMovie.length; index++ )
             {
-            System.out.println(MyMovie[index] + "\n");
+            System.out.println(MyMovie[index]);
             }//end for
+        
+        System.out.println("\n");
             
         for(int index = 0; index < MySongs.length; index++ )
             {
