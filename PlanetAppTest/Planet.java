@@ -1,11 +1,11 @@
 public class Planet
 {
-    private int maxPopulation, maxSpaceMarinesPerStarDestroyer,nplanets;
+    private int maxPopulation, maxSpaceMarinesPerStarDestroyer,nPlanets;
     private double percentSpaceMarines;
     private String p;
     private double radius;
     String[] namer= new String[]{"Beta" + "Alpha" + "Gama" + "Delta"};
-    String[] relationshiper= new String[]{"at war" + "hostile" + "neutral" + "ally" + "friendly"};
+
     private String relationship;
     
     public Planet()
@@ -41,4 +41,13 @@ public class Planet
         this.maxSpaceMarinesPerStarDestroyer = maxSpaceMarinesPerStarDestroyer;
     }
 
+
+
+    public Planet
+    {
+      relation = new String []{ "hostile" , "at war", "neutral", "friendly", "ally"};
+    }
+    
+    
+    
 }
