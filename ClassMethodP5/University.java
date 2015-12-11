@@ -21,7 +21,7 @@ public class University
   // c. 3-19 = -16
   
   // b. When both letters are the same, method compares to the second letter
-  // c. A = 1 , O = 15  ---- 0-15 = -15
+  // c. A = 1 , O = 15  ---- 1-15 = -14
  
   
 
