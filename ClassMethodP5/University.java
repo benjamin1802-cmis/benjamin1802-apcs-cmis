@@ -4,9 +4,9 @@ public class University
 {
   public static void main( String[] args )
     {
-      String school1 = new String( "University of Colorado Denver" );
-      String school2 = new String( "Simpson University" );
-      String school3 = new String( "Biola University" );
+      String school1 = new String( "California" );
+      String school2 = new String( "Simpson" );
+      String school3 = new String( "Colorado" );
       
       System.out.println(school1.compareTo(school2) );
       System.out.println(school1.compareTo(school3) );
@@ -16,12 +16,14 @@ public class University
       System.out.println(school3.compareTo(school2) );
     }// University Test
     
-  // a. The method gives us a "2".What it means is that that the beginning letter of UC Irvine which is 
-  //    "U" comes 18 letters after the beginning letter of California State Long beach being "C".
+  // a. The output compareTo() method is comparing the first letter of the string.
+  // b. C = 3 , S = 19
+  // c. 3-19 = -16
   
-  // b. When the first letter is the same and the second letter is different, the method then compares the second
-  //    letters. For instance, if I have AC college and AC Redding University, the first two letters are the same so it goes straight to the third letter. 
+  // b. When both letters are the same, method compares to the second letter
+  // c. A = 1 , O = 15  ---- 0-15 = -15
  
   
 
 }
+
